@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+}
+
+.navbar-nav {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #F24A72;
+  height: 70px;
+}
+
+.progress {
+  height: 30px;
+  border-radius: 50px;
+  transition: all 0.7s ease;
+  padding: 0;
+}
+
+.progress:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: all 0.5s ease;
+  height: 500px;
+  left: 60px;
+}
+
+.card img {
+  height: 180px;
+  width: 190px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 2px 10px black;
+}
+
+.btn:hover {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-container {
+  background-color: #F24A72;
+  padding: 50px 0 20px;
+}
+
+.py-2 {
+  margin: 5px;
+}
+
+#home-section {
+  padding: 20px;
+  margin: 100px;
+}
+
+#about {
+  padding: 20px;
+  margin: 100px;
+}
+
+#skills {
+  padding: 20px;
+  margin: 100px;
+}
+
+.text {
+  color: #F24A72;
+}
+
+.footer-link {
+  margin: 15px;
+}
+
+.text3 {
+  font-size: 20px;
+}
+
+.carousel-item {
+  width: 80%;
+  height: 90%;
+}
+.form-label:after {
+  content:" *";
+  color: red;
+}
